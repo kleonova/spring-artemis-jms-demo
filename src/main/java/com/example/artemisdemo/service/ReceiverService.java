@@ -5,8 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Service;
 
-import javax.json.Json;
-
 @Service
 public class ReceiverService {
     Logger log = LoggerFactory.getLogger(ReceiverService.class);
